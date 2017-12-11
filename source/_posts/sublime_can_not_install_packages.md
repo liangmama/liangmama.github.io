@@ -1,5 +1,6 @@
 ---
 title: 解决Sublime3上无法下载Packge
+tags: ["工具"]
 ---
 
 

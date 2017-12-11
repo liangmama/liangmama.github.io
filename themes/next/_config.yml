@@ -88,6 +88,7 @@ menu:
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
+  tags: /tags
 
 # Enable/Disable menu icons.
 menu_icons:

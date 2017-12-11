@@ -3,7 +3,7 @@ layout: post
 title: "利用Hexo搭建免费个人博客的简单步骤"
 date: 2017-11-30 20:38:23
 comments: true
-tags:
+tags: ["Hexo使用"]
 ---
 
 ### 适合对象 ###

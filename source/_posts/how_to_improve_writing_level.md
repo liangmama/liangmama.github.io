@@ -1,5 +1,6 @@
 ---
 title: 反思孩子作文差的问题
+tags: "儿童教育"
 ---
 {% asset_img banner.jpg %}
 

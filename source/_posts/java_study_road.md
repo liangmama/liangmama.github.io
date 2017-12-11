@@ -1,6 +1,7 @@
 ---
 title: Java学习资源和路线图
 toc: true
+tags: ["Java编程"]
 ---
 摘要：Java学习资源整理
 <!-- more -->
@@ -60,27 +61,3 @@ TIPS:
 #### JDK：1.9
 
 最新版本：[Java SE Development Kit 9.0.1](http://download.oracle.com/otn-pub/java/jdk/9.0.1+11/jdk-9.0.1_osx-x64_bin.dmg "JDK下载地址")
-
-## 学习过程
-
-### Helloworld
-
-```
-public class Main {
-
-    public static void main(String[] args) {
-
-        System.out.println("Hello World!");
-
-    }
-}
-
-```
-
-``` bash
-$ javac Main.java
-$ ls
-Main.class  Main.java
-$ java Main
-Hello World!
-```

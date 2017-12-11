@@ -1,6 +1,7 @@
 ---
 title: 如何在mac上安装hexo
 toc: true
+tags: "Hexo使用"
 ---
 
 mac OS: High Sierra

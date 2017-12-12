@@ -87,7 +87,7 @@
 <meta property="og:description" content="摘要：创建CentOS 7的本地镜像源的过程">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/2017/12/12/howtodeploylocalrepo/001.png">
-<meta property="og:updated_time" content="2017-12-12T05:18:53.253Z">
+<meta property="og:updated_time" content="2017-12-12T06:08:32.814Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何创建CentOS7本地镜像源">
 <meta name="twitter:description" content="摘要：创建CentOS 7的本地镜像源的过程">
@@ -326,7 +326,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">vi /home/localrepo/exclude.list</span><br><span class="line"></span><br><span class="line">#填入内容</span><br><span class="line">SRPMS</span><br><span class="line">aarch64</span><br><span class="line">ppc64</span><br><span class="line">ppc64le</span><br><span class="line">debug</span><br><span class="line">repodata</span><br><span class="line">EFI</span><br><span class="line">LiveOS</span><br><span class="line">images</span><br><span class="line">isolinux</span><br><span class="line">CentOS_BuildTag</span><br><span class="line">EULA</span><br><span class="line">GPL</span><br><span class="line">RPM-GPG-KEY-CentOS-7</span><br><span class="line">RPM-GPG-KEY-CentOS-Testing-7</span><br><span class="line">drpms</span><br></pre></td></tr></table></figure>
 <h3 id="开始执行同步到本地"><a href="#开始执行同步到本地" class="headerlink" title="开始执行同步到本地"></a>开始执行同步到本地</h3><p>/home/rsync.sh</p>
 <p><img src="001.png" alt="001.png"></p>
-<h2 id="配置定时同步"><a href="#配置定时同步" class="headerlink" title="配置定时同步"></a>配置定时同步</h2><p>corantab</p>
+<h2 id="配置定时同步"><a href="#配置定时同步" class="headerlink" title="配置定时同步"></a>配置定时同步</h2><p>crontab</p>
 
       
     </div>

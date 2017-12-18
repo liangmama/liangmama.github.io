@@ -130,7 +130,8 @@ drpms
 vi /homr/rsync.cron
 
 #每天2点执行一次rsync.sh
-00 2 * * 0 root /home/rsync.sh >> /home/rsync.`date -d last-day +%Y%m%d%H%M`.log >&1
+00 2 * * * /home/rsync.sh >> /home/rsync_$(date +\%Y\%m\%d_\%H\%M\%S).log >&1
+
 
 crontab /home/rsync.cron > ~/log
 ```
@@ -222,3 +223,19 @@ yum info git
 
 因为网络上没有7.2.1511的公开源，因此就下载了CentOS-7-x86_64-Everything-1511.iso
 并拷贝到本地，再提供yum源
+
+```
+cp CentOS-7-x86_64-Everything-1511.iso /home/localrepo/centos/
+mkdir /home/localrepo/centos/7.2.1511
+mount -o loop /home/localrepo/centos/CentOS-7-x86_64-Everything-1511.iso /mnt
+cp -rf /mnt/* /home/localrepo/centos/7.2.1511
+
+vi /etc/yum.repos.d/home.repo
+
+[centos7.2.1511]
+name=name=Terence homebase epel mirror
+baseurl=http://172.168.3.246/centos/7.2.1511/
+enabled=1
+gpgcheck=0
+
+```
